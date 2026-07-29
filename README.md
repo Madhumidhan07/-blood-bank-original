@@ -4,7 +4,13 @@ A full-stack blood donor management portal built with **Node.js + Express + Fire
 
 > **Migration note:** This project originally used MongoDB/Mongoose. It has been migrated to **Firebase Admin SDK / Cloud Firestore** — see "What changed" below. The frontend (`index.html`, `style.css`) is untouched, since it only talks to the REST API and has no direct database coupling.
 
----
+
+## publishing
+published by — netlify 
+
+web sites : https://blood-bank-connect-1.netlify.app
+
+
 
 ## ✅ Updates Implemented (1–15)
 
