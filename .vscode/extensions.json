@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "toba.vsfire",
+    "christian-kohler.path-intellisense",
+    "humao.rest-client"
+  ]
+}

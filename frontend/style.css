@@ -1,0 +1,75 @@
+/* Blood Bank Connect - style.css */
+/* UPDATE 14: Extracted from inline styles in index.html */
+
+:root {
+  --bb-red: #e11d48;
+  --bb-red-dark: #be123c;
+  --bb-dark: #0f172a;
+  --bb-light: #f8fafc;
+  --bb-muted: #64748b;
+  --bb-success: #16a34a;
+  --bb-border-radius: 1rem;
+  --bb-shadow: 0 8px 24px rgba(2, 6, 23, 0.08);
+}
+
+/* ─── Base ─── */
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  background: var(--bb-light);
+  color: var(--bb-dark);
+}
+
+/* ─── Navbar ─── */
+.navbar {
+  box-shadow: var(--bb-shadow);
+}
+
+/* ─── Hero ─── */
+.hero {
+  background: radial-gradient(80% 80% at 50% 0%, #fee2e2 0%, #fff 60%);
+}
+
+/* ─── Cards ─── */
+.card {
+  border: 0;
+  box-shadow: var(--bb-shadow);
+  border-radius: var(--bb-border-radius);
+}
+
+/* ─── Brand colors ─── */
+.bb-badge { background: var(--bb-red); }
+.bb-btn   { background: var(--bb-red); border: none; color: #fff; }
+.bb-btn:hover { background: var(--bb-red-dark); color: #fff; }
+
+/* ─── Links ─── */
+.link-like {
+  cursor: pointer;
+  color: var(--bb-red);
+}
+
+/* ─── Utility ─── */
+.hidden { display: none !important; }
+
+/* ─── Tables ─── */
+.table thead th { background: #fff1f2; }
+
+/* ─── Required asterisk ─── */
+.required::after {
+  content: " *";
+  color: var(--bb-red);
+}
+
+/* ─── Availability badge ─── */
+.availability-on  { background: #dcfce7; color: #166534; border-radius: 999px; padding: 2px 10px; font-size: .8rem; font-weight: 600; }
+.availability-off { background: #fee2e2; color: #991b1b; border-radius: 999px; padding: 2px 10px; font-size: .8rem; font-weight: 600; }
+
+/* ─── Toast container ─── */
+.toast-container { z-index: 1100; }
+
+/* ─── Loading spinner overlay ─── */
+#loadingOverlay {
+  position: fixed; inset: 0;
+  background: rgba(255,255,255,.6);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 9999;
+}
