@@ -89,13 +89,7 @@ npm install
 ### 3. Configure environment
 Copy `backend/.env.example` to `backend/.env` and fill in your project ID:
 ```env
-NODE_ENV=development
-PORT=5000
-JWT_SECRET=change_this_to_a_long_random_string
-JWT_EXPIRE=30d
-FIREBASE_PROJECT_ID=your-firebase-project-id
-GOOGLE_APPLICATION_CREDENTIALS=./serviceAccountKey.json
-```
+
 `GOOGLE_APPLICATION_CREDENTIALS` points at the service-account file from step 1 — the Firebase Admin SDK reads it automatically via `admin.credential.applicationDefault()`.
 
 ### 4. Start the server
