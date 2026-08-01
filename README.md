@@ -8,8 +8,7 @@ A full-stack blood donor management portal built with **Node.js + Express + Fire
 ## publishing
 published by — netlify 
 
-web sites : https://blood-bank-connect-1.netlify.app
-
+web sites : https://lifesaver-2026.netlify.app
 
 
 ## ✅ Updates Implemented (1–15)
