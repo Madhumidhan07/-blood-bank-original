@@ -6,7 +6,7 @@ A full-stack blood donor management portal built with **Node.js + Express + Fire
 
 
 ## publishing
-published by — netlify 
+published by — netlify
 
 web sites : https://lifesaver-2026.netlify.app
 
